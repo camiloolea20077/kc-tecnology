@@ -2,15 +2,13 @@ import { Component } from '@angular/core';
 import { NavbarComponent } from "../../components/navbar/navbar.component";
 import { FooterComponent } from "../../components/footer/footer.component";
 
-
 @Component({
-  selector: 'app-about-us',
+  selector: 'app-services',
   standalone: true,
-  templateUrl: './about-us.component.html',
-  styleUrls: ['./about-us.component.scss'],
+  templateUrl: './services.component.html',
+  styleUrls: ['./services.component.css'],
   imports: [NavbarComponent, FooterComponent],
-  
 })
-export class AboutUsComponent {
+export class ServicesComponent {
 
 }
