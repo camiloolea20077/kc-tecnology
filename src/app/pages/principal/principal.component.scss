@@ -72,3 +72,27 @@
 .card-text {
     color: #000000;
 }
+
+.sidebar {
+    width: 250px;
+    height: 100vh; /* Alto completo de la pantalla */
+    position: fixed; /* Estático en el lateral */
+    top: 0;
+    left: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    overflow-y: auto; /* Scroll si el contenido es largo */
+}
+
+.sidebar .nav-link {
+    color: #fff;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #343a40; /* Fondo gris oscuro al pasar el mouse */
+}
+
+.content {
+    margin-left: 250px; /* Compensar el ancho del sidebar */
+    padding: 1rem;
+}
